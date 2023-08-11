@@ -1,19 +1,10 @@
 export default [
     {
-        "featureType": "all",
-        "elementType": "labels.text",
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
         "stylers": [
             {
-                "color": "#878787"
-            }
-        ]
-    },
-    {
-        "featureType": "all",
-        "elementType": "labels.text.stroke",
-        "stylers": [
-            {
-                "visibility": "off"
+                "color": "#444444"
             }
         ]
     },
@@ -22,7 +13,28 @@ export default [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#f9f5ed"
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
             }
         ]
     },
@@ -31,16 +43,25 @@ export default [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#f5f5f5"
+                "visibility": "simplified"
             }
         ]
     },
     {
-        "featureType": "road.highway",
-        "elementType": "geometry.stroke",
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
         "stylers": [
             {
-                "color": "#c9c9c9"
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
             }
         ]
     },
@@ -49,7 +70,10 @@ export default [
         "elementType": "all",
         "stylers": [
             {
-                "color": "#aee0f4"
+                "color": "#46bcec"
+            },
+            {
+                "visibility": "on"
             }
         ]
     }
